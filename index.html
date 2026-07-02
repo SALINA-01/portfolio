@@ -1,45 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Portfolio</title>
 
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
-<nav>
-    <h2 class="logo">Portfolio</h2>
+<!-- Navigation -->
 
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
+<nav>
+
+<h2 class="logo">Portfolio</h2>
+
+<ul>
+
+<li><a href="#">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
 </nav>
+
+<!-- Hero -->
 
 <section class="hero">
 
-    <div class="hero-text">
+<div class="hero-content">
 
-        <h1>Hello, I'm <span>Salina</span></h1>
+<h1>Hello, I'm <span>Salina Timsina</span></h1>
 
-        <h3>Computer Science Student</h3>
+<h3>Computer Science Student & Web Developer</h3>
 
-        <p>
-            I'm passionate about web development and enjoy creating
-            responsive, user-friendly websites while continuously learning
-            new technologies.
-        </p>
+<p>
+I enjoy creating responsive websites and learning modern web technologies.
+My goal is to become a skilled full-stack developer.
+</p>
 
-        <button>View Projects</button>
+<a href="#projects" class="btn">View My Projects</a>
 
-    </div>
+</div>
 
 </section>
+
+<!-- About -->
+
+<section id="about" class="about">
+
+<h2>About Me</h2>
+
+<p>
+I'm a Computer Science student with an interest in web development,
+Python programming, and database management. I enjoy building projects
+that solve real-world problems and improve my programming skills.
+</p>
+
+</section>
+
+<!-- Skills -->
+
+<section id="skills" class="skills">
+
+<h2>Skills</h2>
+
+<div class="skill-box">
+
+<div class="card">
+<h3>HTML</h3>
+<p>Creating semantic and responsive web pages.</p>
+</div>
+
+<div class="card">
+<h3>CSS</h3>
+<p>Designing attractive layouts with Flexbox and Grid.</p>
+</div>
+
+<div class="card">
+<h3>JavaScript</h3>
+<p>Adding interactivity and dynamic features.</p>
+</div>
+
+<div class="card">
+<h3>Python</h3>
+<p>Building applications using Python and Flask.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- Projects -->
+
+<section id="projects" class="projects">
+
+<h2>Projects</h2>
+
+<div class="project-container">
+
+<div class="project-card">
+
+<h3>Jewelry E-Commerce</h3>
+
+<p>
+Developed an online jewelry shopping website using Flask,
+MySQL, HTML, CSS, and Bootstrap.
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>Employee Management System</h3>
+
+<p>
+Created a C programming project to manage employee records
+using file handling.
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>Portfolio Website</h3>
+
+<p>
+A responsive personal portfolio showcasing my projects,
+skills, and achievements.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Contact -->
+
+<section id="contact" class="contact">
+
+<h2>Contact Me</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Your Email">
+
+<textarea rows="6" placeholder="Your Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+
+<p>© 2026 Salina Timsina | All Rights Reserved</p>
+
+</footer>
 
 </body>
 </html>
